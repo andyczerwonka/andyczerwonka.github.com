@@ -73,11 +73,11 @@ twitter_tweet_button: true
 
 # Google +1
 google_plus_one: true
-google_plus_one_size: medium
+google_plus_one_size: small
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user: andy.czerwonka@gmail.com
+googleplus_user: 106813386163068618139
 googleplus_hidden: false
 
 # Pinboard
