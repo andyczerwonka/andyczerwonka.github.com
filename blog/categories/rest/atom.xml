@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: REST | Andy Czerwonka]]></title>
+  <link href="http://andyczerwonka.github.com/blog/categories/rest/atom.xml" rel="self"/>
+  <link href="http://andyczerwonka.github.com/"/>
+  <updated>2012-12-11T14:22:36-07:00</updated>
+  <id>http://andyczerwonka.github.com/</id>
+  <author>
+    <name><![CDATA[Andy Czerwonka]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Picking a web application platform isn't as easy as it once was]]></title>
+    <link href="http://andyczerwonka.github.com/blog/2012/12/11/picking-a-web-application-platform-isnt-as-easy-as-it-once-was/"/>
+    <updated>2012-12-11T14:03:00-07:00</updated>
+    <id>http://andyczerwonka.github.com/blog/2012/12/11/picking-a-web-application-platform-isnt-as-easy-as-it-once-was</id>
+    <content type="html"><![CDATA[<p>I find myself in a bit of a conundrum. I'm building a new, modern, web-based application and not only do I have to pick a technology, I have to pick an architecture. I think it is fair to say that these days its a tough choice because we have more options than we did even 5 years ago.
+First things first, I've made the decision that Scala will be the server-side language. I have my reasons, and this is not a Scala versus XYZ post - that choice has been made. I've also sucummed to the fact that we're on the web (in the cloud with today's jargon), so I'm not even going to try and get away from Javascript.</p>
+
+<p>Now, assuming Scala, most people would probably jump to either <a href="http://www.playframework.org/">Play!</a> or <a href="http://liftweb.net/">Lift</a>. Probably Play! given it's endorsement from Typesafe, but I think I have another more important question that needs answering first. What's the architecture? If I want a very rich client, do I really need more than a simple stateless service layer based on the fact that we'll have a tonne of Javascript anyway? I'm not sure it'll be a single-page webapp, but is something like <a href="https://github.com/jdegoes/blueeyes">BlueEyes</a> or <a href="http://spray.io/">Spray.io</a> potentially the right choice? Lift and Play! are much more heavyweight in that they take on much more responsibility. They generate the HTML and for these frameworks, the browser can be fairly dumb. Things like routing, validation, Ajax and Comet support are all server-side concerns. Because the browser is more capable today, rich, interactive features are normally implemented by generating and injecting Javascript from the server.</p>
+
+<p>My question boils down to this. Do I go with a traditional Lift/Play! framework where the server takes on both the client and server responsibility or do I go with a <a href="http://www.infoq.com/articles/client-server-application-development-with-html5-and-java">rich client + REST-style service layer</a> where the client takes a more prominent role in the application? An architecture where the client deals with routing, validation, binding, etc. I'm seeing frameworks like <a href="http://angularjs.org/">Angular.js</a>, <a href="http://emberjs.com/">Ember.js</a>, <a href="http://backbonejs.org/">Backbone.js</a>,... I'm not going to list them all but suffice to say that they all take on some of these framework features from a client-side perspective.</p>
+
+<p>If I choose Play!, am I giving up some of that rich UI? What about situations where I want to provide service API's for integration/mashup/mobile purposes? How would Play! help me here? Clearly BlueEyes plays well here. I need a service layer regardless.</p>
+
+<p>If I choose BlueEyes, what does my client code look like? How many of these Javascript-based frameworks do I need to give me what I need? Do they scale from a development perspective? I still want my core business-logic in my service layer, but routing, binding.. all that UI stuff would be a concern of the client.</p>
+
+<p>So many choices... I'd love to hear your thoughts.</p>
+]]></content>
+  </entry>
+  
+</feed>
