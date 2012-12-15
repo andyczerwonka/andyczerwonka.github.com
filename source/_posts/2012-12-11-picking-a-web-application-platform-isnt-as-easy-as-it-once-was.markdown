@@ -3,7 +3,7 @@ layout: post
 title: "Picking a web application platform isn't as easy as it once was"
 date: 2012-12-11 14:03
 comments: true
-categories: [programming, single page application, javascript, REST]
+categories: [programming, web application, javascript, REST]
 ---
 
 I find myself in a bit of a conundrum. I'm building a new, modern, web-based application and not only do I have to pick a technology, I have to pick an architecture. I think it is fair to say that these days its a tough choice because we have more options than we did even 5 years ago.
