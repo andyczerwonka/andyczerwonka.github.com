@@ -4,7 +4,7 @@
   <title><![CDATA[Category: javascript | Andy Czerwonka]]></title>
   <link href="http://andyczerwonka.com/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://andyczerwonka.com/"/>
-  <updated>2012-12-15T11:12:11-07:00</updated>
+  <updated>2012-12-15T11:50:29-07:00</updated>
   <id>http://andyczerwonka.com/</id>
   <author>
     <name><![CDATA[Andy Czerwonka]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Introducing Dolphin]]></title>
+    <link href="http://andyczerwonka.com/blog/2012/12/15/introducing-dolphin/"/>
+    <updated>2012-12-15T11:14:00-07:00</updated>
+    <id>http://andyczerwonka.com/blog/2012/12/15/introducing-dolphin</id>
+    <content type="html"><![CDATA[<p>I've been thinking about web application architecture for a while now. I've taken many client-side and server-side frameworks for a spin over the last six-to-nine months. I've built prototype after prototype. I've learned a lot. I <em>think</em> I've learned enough to be innovative yet commercially responsible. It's time to take the next step.</p>
+
+<p><a href="https://github.com/andyczerwonka/dolphin">Dolphin</a> is a project that will bring together a bunch of technologies that I've been testing in for a large portion of 2012. 2013 will be the year where those efforts will finally produce a commercial offering. Dolphin will not only deliver new value as an integrated product in the the <a href="http://www.3esi.com/">3esi</a> application suite, it'll uncover the delivery vehicle for the next generation of 3esi products.</p>
+
+<p>I'm excited to get started.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Picking a web application platform isn't as easy as it once was]]></title>
