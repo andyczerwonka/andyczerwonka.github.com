@@ -4,7 +4,7 @@
 
 url: http://andyczerwonka.com
 title: Andy Czerwonka
-subtitle: mostly early morning rants on software development and whatever else I find interesting
+subtitle: early morning rants on software development and whatever else I find interesting
 author: Andy Czerwonka
 simple_search: http://google.com/search
 description:
@@ -85,8 +85,8 @@ pinboard_user:
 pinboard_count: 3
 
 # Delicious
-delicious_user:
-delicious_count: 3
+delicious_user: andyczerwonka
+delicious_count: 5
 
 # Disqus Comments
 disqus_short_name: andyczerwonka
@@ -96,4 +96,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id: fPev0iEHbAEIOsdfD8N6kevPx68GNhNyZcsbXCxubs8
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
