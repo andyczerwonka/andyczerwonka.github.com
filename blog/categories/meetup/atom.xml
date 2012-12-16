@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: meetup | Andy Czerwonka]]></title>
+  <link href="http://andyczerwonka.com/blog/categories/meetup/atom.xml" rel="self"/>
+  <link href="http://andyczerwonka.com/"/>
+  <updated>2012-12-16T15:40:21-07:00</updated>
+  <id>http://andyczerwonka.com/</id>
+  <author>
+    <name><![CDATA[Andy Czerwonka]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Calgary Scala]]></title>
+    <link href="http://andyczerwonka.com/blog/2012/12/16/calgary-scala/"/>
+    <updated>2012-12-16T15:28:00-07:00</updated>
+    <id>http://andyczerwonka.com/blog/2012/12/16/calgary-scala</id>
+    <content type="html"><![CDATA[<p>I've moved <a href="https://plus.google.com/u/0/communities/115918964995782373052">Calgary Scala</a> over to <a href="https://plus.google.com/u/0/communities">Google+ Communities</a>. With the combination of Communities, Events and Hangouts, I think Google's offering has surpassed <a href="http://www.meetup.com/">Meetup.com</a> as the best service to manage Calgary Scala.</p>
+
+<p>I'll see you in 2013 at our first <a href="https://plus.google.com/u/0/events/cupsgrdu33lr5krnoqk4513df9o">Calgary Scala Community Event!</a></p>
+]]></content>
+  </entry>
+  
+</feed>
