@@ -9,7 +9,7 @@
   <meta name="author" content="Andy Czerwonka">
 
   
-  <meta name="description" content="I&#8217;ve moved Calgary Scala over to Google+ Communities. With the combination of Communities, Events and Hangouts, I think Google&#8217;s offering &hellip;">
+  <meta name="description" content="I&#8217;ll do a small series of posts descibinig, in a little detail, the Dolphin architecture and the reasons for making the choices I&#8217;ve made &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +76,66 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/01/02/why-play/">Why Play?</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-02T09:20:00-07:00" pubdate data-updated="true">Jan 2<span>nd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;ll do a small series of posts descibinig, in a little detail, the <a href="https://github.com/andyczerwonka/dolphin">Dolphin</a> architecture and the reasons for making the choices I&#8217;ve made. Today I&#8217;ll focus on the <a href="http://www.playframework.org/">Play Framework</a>. There were many drivers, but I&#8217;ll focus on the four main ones.</p>
+
+<ol>
+<li><a href="http://www.scala-lang.org/">Scala</a></li>
+<li>Scalability &amp; Programming Model</li>
+<li><a href="http://akka.io/">Akka</a></li>
+<li><a href="http://typesafe.com/">Typesafe</a></li>
+</ol>
+
+
+<h2>Scala</h2>
+
+<p>The choice of Scala is a personal one. Many argue it&#8217;s fantastic, many argue it&#8217;s too complex. I will argue it makes me a better programmer. I won&#8217;t get into a language debate here, but I will say that it&#8217;s a language that is only gaining in popularity and is arguably the best choice for JVM development today and for the foreseeable future.</p>
+
+<h2>Scalability &amp; Programming Model</h2>
+
+<p>Play is backed by <a href="https://netty.io/">Netty</a>, the asynchronous event-driven NIO framework. I don&#8217;t want/need all the Java Servlet legacy. NIO gives me much better throughput and lower latency. Play also gives me a stateless programming model that allows me to scale out if necessary. In terms of developer productivity, Play&#8217;s roots came from a group of developers that wanted <a href="http://rubyonrails.org/">Rails</a>-like development productivity without the Ruby baggage that comes with it. They wanted a Ruby-esque cruft-free language, but they weren&#8217;t willing to give up type safety and a decent runtime to get it. Who wouldn&#8217;t want that?</p>
+
+<h2>Akka</h2>
+
+<p>Dolphin integrates with many esi.manage nodes. I need a <a href="http://doc.akka.io/docs/akka/snapshot/scala/dataflow.html">scatter/gather type dataflow capability</a> and Akka gives it to me, very naturally and efficiently with the actor programming model. That combined with NIO gives me a very scalable solution, with even one server node.</p>
+
+<h2>Typesafe</h2>
+
+<p>Typesafe spent much of 2012 hiring the some of the <a href="http://typesafe.com/company/team">best Scala developers</a> out there. Some would argue they&#8217;re hoarding! ;-) Martin Odersky, their Chairman and Chief Architect, is the main author of Scala and has endorsed both Akka and Play as part of their technology stack. Typesafe is <a href="http://typesafe.com/company/news/24499">well funded</a> and I don&#8217;t see them going anywhere soon.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -215,6 +275,10 @@ First things first, I&#8217;ve made the decision that Scala will be the server-s
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/01/02/why-play/">Why Play?</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/12/16/calgary-scala/">Calgary Scala</a>
       </li>
     
@@ -272,7 +336,7 @@ First things first, I&#8217;ve made the decision that Scala will be the server-s
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Andy Czerwonka -
+  Copyright &copy; 2013 - Andy Czerwonka -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

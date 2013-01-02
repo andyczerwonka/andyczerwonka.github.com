@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Calgary Scala - Andy Czerwonka</title>
+  <title>Why Play? - Andy Czerwonka</title>
   <meta name="author" content="Andy Czerwonka">
 
   
-  <meta name="description" content="I&#8217;ve moved Calgary Scala over to Google+ Communities. With the combination of Communities, Events and Hangouts, I think Google&#8217;s offering &hellip;">
+  <meta name="description" content="I&#8217;ll do a small series of posts descibinig, in a little detail, the Dolphin architecture and the reasons for making the choices I&#8217;ve made &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://andyczerwonka.com/blog/2012/12/16/calgary-scala/">
+  <link rel="canonical" href="http://andyczerwonka.com/blog/2013/01/02/why-play/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -79,7 +79,7 @@
   
   <header>
     
-      <h1 class="entry-title">Calgary Scala</h1>
+      <h1 class="entry-title">Why Play?</h1>
     
     
       <p class="meta">
@@ -95,16 +95,38 @@
   
 
 
-<time datetime="2012-12-16T15:28:00-07:00" pubdate data-updated="true">Dec 16<span>th</span>, 2012</time>
+<time datetime="2013-01-02T09:20:00-07:00" pubdate data-updated="true">Jan 2<span>nd</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I&#8217;ve moved <a href="https://plus.google.com/u/0/communities/115918964995782373052">Calgary Scala</a> over to <a href="https://plus.google.com/u/0/communities">Google+ Communities</a>. With the combination of Communities, Events and Hangouts, I think Google&#8217;s offering has surpassed <a href="http://www.meetup.com/">Meetup.com</a> as the best service to manage Calgary Scala.</p>
+<div class="entry-content"><p>I&#8217;ll do a small series of posts descibinig, in a little detail, the <a href="https://github.com/andyczerwonka/dolphin">Dolphin</a> architecture and the reasons for making the choices I&#8217;ve made. Today I&#8217;ll focus on the <a href="http://www.playframework.org/">Play Framework</a>. There were many drivers, but I&#8217;ll focus on the four main ones.</p>
 
-<p>I&#8217;ll see you in 2013 at our first <a href="https://plus.google.com/u/0/events/cupsgrdu33lr5krnoqk4513df9o">Calgary Scala Community Event!</a></p>
+<ol>
+<li><a href="http://www.scala-lang.org/">Scala</a></li>
+<li>Scalability &amp; Programming Model</li>
+<li><a href="http://akka.io/">Akka</a></li>
+<li><a href="http://typesafe.com/">Typesafe</a></li>
+</ol>
+
+
+<h2>Scala</h2>
+
+<p>The choice of Scala is a personal one. Many argue it&#8217;s fantastic, many argue it&#8217;s too complex. I will argue it makes me a better programmer. I won&#8217;t get into a language debate here, but I will say that it&#8217;s a language that is only gaining in popularity and is arguably the best choice for JVM development today and for the foreseeable future.</p>
+
+<h2>Scalability &amp; Programming Model</h2>
+
+<p>Play is backed by <a href="https://netty.io/">Netty</a>, the asynchronous event-driven NIO framework. I don&#8217;t want/need all the Java Servlet legacy. NIO gives me much better throughput and lower latency. Play also gives me a stateless programming model that allows me to scale out if necessary. In terms of developer productivity, Play&#8217;s roots came from a group of developers that wanted <a href="http://rubyonrails.org/">Rails</a>-like development productivity without the Ruby baggage that comes with it. They wanted a Ruby-esque cruft-free language, but they weren&#8217;t willing to give up type safety and a decent runtime to get it. Who wouldn&#8217;t want that?</p>
+
+<h2>Akka</h2>
+
+<p>Dolphin integrates with many esi.manage nodes. I need a <a href="http://doc.akka.io/docs/akka/snapshot/scala/dataflow.html">scatter/gather type dataflow capability</a> and Akka gives it to me, very naturally and efficiently with the actor programming model. That combined with NIO gives me a very scalable solution, with even one server node.</p>
+
+<h2>Typesafe</h2>
+
+<p>Typesafe spent much of 2012 hiring the some of the <a href="http://typesafe.com/company/team">best Scala developers</a> out there. Some would argue they&#8217;re hoarding! ;-) Martin Odersky, their Chairman and Chief Architect, is the main author of Scala and has endorsed both Akka and Play as part of their technology stack. Typesafe is <a href="http://typesafe.com/company/news/24499">well funded</a> and I don&#8217;t see them going anywhere soon.</p>
 </div>
 
 
@@ -127,12 +149,12 @@
   
 
 
-<time datetime="2012-12-16T15:28:00-07:00" pubdate data-updated="true">Dec 16<span>th</span>, 2012</time>
+<time datetime="2013-01-02T09:20:00-07:00" pubdate data-updated="true">Jan 2<span>nd</span>, 2013</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/meetup/'>meetup</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/scala/'>scala</a>
+    <a class='category' href='/blog/categories/dolphin/'>dolphin</a>, <a class='category' href='/blog/categories/playframework/'>playframework</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/scala/'>scala</a>
   
 </span>
 
@@ -141,7 +163,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://andyczerwonka.com/blog/2012/12/16/calgary-scala/" data-via="andyczerwonka" data-counturl="http://andyczerwonka.com/blog/2012/12/16/calgary-scala/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://andyczerwonka.com/blog/2013/01/02/why-play/" data-via="andyczerwonka" data-counturl="http://andyczerwonka.com/blog/2013/01/02/why-play/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="small"></div>
@@ -154,10 +176,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/12/15/introducing-dolphin/" title="Previous Post: Introducing Dolphin">&laquo; Introducing Dolphin</a>
+        <a class="basic-alignment left" href="/blog/2012/12/16/calgary-scala/" title="Previous Post: Calgary Scala">&laquo; Calgary Scala</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2013/01/02/why-play/" title="Next Post: Why Play?">Why Play? &raquo;</a>
       
     </p>
   </footer>
@@ -252,8 +272,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://andyczerwonka.com/blog/2012/12/16/calgary-scala/';
-        var disqus_url = 'http://andyczerwonka.com/blog/2012/12/16/calgary-scala/';
+        var disqus_identifier = 'http://andyczerwonka.com/blog/2013/01/02/why-play/';
+        var disqus_url = 'http://andyczerwonka.com/blog/2013/01/02/why-play/';
         var disqus_script = 'embed.js';
       
     (function () {
