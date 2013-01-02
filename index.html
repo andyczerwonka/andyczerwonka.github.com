@@ -9,7 +9,7 @@
   <meta name="author" content="Andy Czerwonka">
 
   
-  <meta name="description" content="I&#8217;ll do a small series of posts descibinig, in a little detail, the Dolphin architecture and the reasons for making the choices I&#8217;ve made &hellip;">
+  <meta name="description" content="I&#8217;ll do a small series of posts describing, in a little detail, the Dolphin architecture and the reasons for making the choices I&#8217;ve made &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -105,7 +105,7 @@
   </header>
 
 
-  <div class="entry-content"><p>I&#8217;ll do a small series of posts descibinig, in a little detail, the <a href="https://github.com/andyczerwonka/dolphin">Dolphin</a> architecture and the reasons for making the choices I&#8217;ve made. Today I&#8217;ll focus on the <a href="http://www.playframework.org/">Play Framework</a>. There were many drivers, but I&#8217;ll focus on the four main ones.</p>
+  <div class="entry-content"><p>I&#8217;ll do a small series of posts describing, in a little detail, the <a href="https://github.com/andyczerwonka/dolphin">Dolphin</a> architecture and the reasons for making the choices I&#8217;ve made. Today I&#8217;ll focus on the <a href="http://www.playframework.org/">Play Framework</a>. There were many drivers, but I&#8217;ll focus on the four main ones.</p>
 
 <ol>
 <li><a href="http://www.scala-lang.org/">Scala</a></li>
@@ -125,7 +125,7 @@
 
 <h2>Akka</h2>
 
-<p>Dolphin integrates with many esi.manage nodes. I need a <a href="http://doc.akka.io/docs/akka/snapshot/scala/dataflow.html">scatter/gather type dataflow capability</a> and Akka gives it to me, very naturally and efficiently with the actor programming model. That combined with NIO gives me a very scalable solution, with even one server node.</p>
+<p>Dolphin integrates with many esi.manage nodes. I need a <a href="http://doc.akka.io/docs/akka/snapshot/scala/dataflow.html">scatter/gather type data-flow capability</a> and Akka gives it to me, very naturally and efficiently with the actor programming model. That combined with NIO gives me a very scalable solution, with even one server node.</p>
 
 <h2>Typesafe</h2>
 
