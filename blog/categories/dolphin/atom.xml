@@ -4,7 +4,7 @@
   <title><![CDATA[Category: dolphin | Andy Czerwonka]]></title>
   <link href="http://andyczerwonka.com/blog/categories/dolphin/atom.xml" rel="self"/>
   <link href="http://andyczerwonka.com/"/>
-  <updated>2013-01-02T11:06:29-07:00</updated>
+  <updated>2013-01-03T08:38:42-07:00</updated>
   <id>http://andyczerwonka.com/</id>
   <author>
     <name><![CDATA[Andy Czerwonka]]></name>
@@ -18,7 +18,7 @@
     <link href="http://andyczerwonka.com/blog/2013/01/02/why-play/"/>
     <updated>2013-01-02T09:20:00-07:00</updated>
     <id>http://andyczerwonka.com/blog/2013/01/02/why-play</id>
-    <content type="html"><![CDATA[<p>I'll do a small series of posts describing, in a little detail, the <a href="https://github.com/andyczerwonka/dolphin">Dolphin</a> architecture and the reasons for making the choices I've made. Today I'll focus on the <a href="http://www.playframework.org/">Play Framework</a>. There were many drivers, but I'll focus on the four main ones.</p>
+    <content type="html"><![CDATA[<p>I'll do a small series of posts describing, in a little detail, the <a href="https://github.com/andyczerwonka/dolphin">Dolphin</a> architecture and the reasons for making the choices I've made. Today I'll focus on the <a href="http://www.playframework.org/">Play Framework</a>. There were many drivers, but I'll focus on what was most important to me.</p>
 
 <ol>
 <li><a href="http://www.scala-lang.org/">Scala</a></li>
@@ -34,7 +34,7 @@
 
 <h2>Scalability &amp; Programming Model</h2>
 
-<p>Play is backed by <a href="https://netty.io/">Netty</a>, the asynchronous event-driven NIO framework. I don't want/need all the Java Servlet legacy. NIO gives me much better throughput and lower latency. Play also gives me a stateless programming model that allows me to scale out if necessary. In terms of developer productivity, Play's roots came from a group of developers that wanted <a href="http://rubyonrails.org/">Rails</a>-like development productivity without the Ruby baggage that comes with it. They wanted a Ruby-esque cruft-free language, but they weren't willing to give up type safety and a decent runtime to get it. Who wouldn't want that?</p>
+<p>Play is backed by <a href="https://netty.io/">Netty</a>, the asynchronous event-driven NIO framework. I don't want/need all the Java Servlet legacy. NIO gives me much better throughput and lower latency. Play also gives me a stateless programming model that allows me to scale out if necessary. In terms of developer productivity, Play's roots came from a group of developers that wanted <a href="http://rubyonrails.org/">Rails</a>-like development productivity without the Ruby <del>baggage<del> shortcomings. They wanted a Ruby-esque cruft-free language, but they weren't willing to give up type safety and a decent runtime to get it. Who wouldn't want that?</p>
 
 <h2>Akka</h2>
 

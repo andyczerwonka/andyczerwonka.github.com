@@ -102,7 +102,7 @@
   </header>
 
 
-<div class="entry-content"><p>I&#8217;ll do a small series of posts describing, in a little detail, the <a href="https://github.com/andyczerwonka/dolphin">Dolphin</a> architecture and the reasons for making the choices I&#8217;ve made. Today I&#8217;ll focus on the <a href="http://www.playframework.org/">Play Framework</a>. There were many drivers, but I&#8217;ll focus on the four main ones.</p>
+<div class="entry-content"><p>I&#8217;ll do a small series of posts describing, in a little detail, the <a href="https://github.com/andyczerwonka/dolphin">Dolphin</a> architecture and the reasons for making the choices I&#8217;ve made. Today I&#8217;ll focus on the <a href="http://www.playframework.org/">Play Framework</a>. There were many drivers, but I&#8217;ll focus on what was most important to me.</p>
 
 <ol>
 <li><a href="http://www.scala-lang.org/">Scala</a></li>
@@ -118,7 +118,7 @@
 
 <h2>Scalability &amp; Programming Model</h2>
 
-<p>Play is backed by <a href="https://netty.io/">Netty</a>, the asynchronous event-driven NIO framework. I don&#8217;t want/need all the Java Servlet legacy. NIO gives me much better throughput and lower latency. Play also gives me a stateless programming model that allows me to scale out if necessary. In terms of developer productivity, Play&#8217;s roots came from a group of developers that wanted <a href="http://rubyonrails.org/">Rails</a>-like development productivity without the Ruby baggage that comes with it. They wanted a Ruby-esque cruft-free language, but they weren&#8217;t willing to give up type safety and a decent runtime to get it. Who wouldn&#8217;t want that?</p>
+<p>Play is backed by <a href="https://netty.io/">Netty</a>, the asynchronous event-driven NIO framework. I don&#8217;t want/need all the Java Servlet legacy. NIO gives me much better throughput and lower latency. Play also gives me a stateless programming model that allows me to scale out if necessary. In terms of developer productivity, Play&#8217;s roots came from a group of developers that wanted <a href="http://rubyonrails.org/">Rails</a>-like development productivity without the Ruby <del>baggage<del> shortcomings. They wanted a Ruby-esque cruft-free language, but they weren&#8217;t willing to give up type safety and a decent runtime to get it. Who wouldn&#8217;t want that?</p>
 
 <h2>Akka</h2>
 
