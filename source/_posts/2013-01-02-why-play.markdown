@@ -6,7 +6,7 @@ comments: true
 categories: [programming, scala, playframework, dolphin]
 ---
 
-I'll do a small series of posts describing, in a little detail, the [Dolphin](https://github.com/andyczerwonka/dolphin) architecture and the reasons for making the choices I've made. Today I'll focus on the [Play Framework](http://www.playframework.org/). There were many drivers, but I'll focus on the four main ones.
+I'll do a small series of posts describing, in a little detail, the [Dolphin](https://github.com/andyczerwonka/dolphin) architecture and the reasons for making the choices I've made. Today I'll focus on the [Play Framework](http://www.playframework.org/). There were many drivers, but I'll focus on what was most important to me.
 
 1. [Scala](http://www.scala-lang.org/)
 1. Scalability & Programming Model
@@ -17,7 +17,7 @@ I'll do a small series of posts describing, in a little detail, the [Dolphin](ht
 The choice of Scala is a personal one. Many argue it's fantastic, many argue it's too complex. I will argue it makes me a better programmer. I won't get into a language debate here, but I will say that it's a language that is only gaining in popularity and is arguably the best choice for JVM development today and for the foreseeable future.
 
 ## Scalability & Programming Model
-Play is backed by [Netty](https://netty.io/), the asynchronous event-driven NIO framework. I don't want/need all the Java Servlet legacy. NIO gives me much better throughput and lower latency. Play also gives me a stateless programming model that allows me to scale out if necessary. In terms of developer productivity, Play's roots came from a group of developers that wanted [Rails](http://rubyonrails.org/)-like development productivity without the Ruby baggage that comes with it. They wanted a Ruby-esque cruft-free language, but they weren't willing to give up type safety and a decent runtime to get it. Who wouldn't want that?
+Play is backed by [Netty](https://netty.io/), the asynchronous event-driven NIO framework. I don't want/need all the Java Servlet legacy. NIO gives me much better throughput and lower latency. Play also gives me a stateless programming model that allows me to scale out if necessary. In terms of developer productivity, Play's roots came from a group of developers that wanted [Rails](http://rubyonrails.org/)-like development productivity without the Ruby <del>baggage</del> shortcomings. They wanted a Ruby-esque cruft-free language, but they weren't willing to give up type safety and a decent runtime to get it. Who wouldn't want that?
 
 ## Akka
 Dolphin integrates with many esi.manage nodes. I need a [scatter/gather type data-flow capability](http://doc.akka.io/docs/akka/snapshot/scala/dataflow.html) and Akka gives it to me, very naturally and efficiently with the actor programming model. That combined with NIO gives me a very scalable solution, with even one server node.
