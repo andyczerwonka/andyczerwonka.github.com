@@ -4,7 +4,7 @@
   <title><![CDATA[Category: europe | Andy Czerwonka]]></title>
   <link href="http://andyczerwonka.com/blog/categories/europe/atom.xml" rel="self"/>
   <link href="http://andyczerwonka.com/"/>
-  <updated>2013-07-08T05:12:40-06:00</updated>
+  <updated>2013-07-08T05:13:37-06:00</updated>
   <id>http://andyczerwonka.com/</id>
   <author>
     <name><![CDATA[Andy Czerwonka]]></name>
@@ -19,30 +19,6 @@
     <updated>2013-07-07T20:00:00-06:00</updated>
     <id>http://andyczerwonka.com/blog/2013/07/07/sometimes-three-are-better-than-one</id>
     <content type="html"><![CDATA[<p>I'm in Katowice, Poland on a business trip for a few days, so this weekend we decided to head out to <a href="http://en.wikipedia.org/wiki/Zakopane">Zakopane</a>, the popular mountain town in southern Poland.</p>
-
-<ol>
-<li><a href="http://www.scala-lang.org/">Scala</a></li>
-<li>Scalability &amp; Programming Model</li>
-<li><a href="http://akka.io/">Akka</a></li>
-<li><a href="http://typesafe.com/">Typesafe</a></li>
-</ol>
-
-
-<h2>Scala</h2>
-
-<p>The choice of Scala is a personal one. Many argue it's fantastic, many argue it's too complex. I will argue it makes me a better programmer. I won't get into a language debate here, but I will say that it's a language that is only gaining in popularity and is arguably the best choice for JVM development today and for the foreseeable future.</p>
-
-<h2>Scalability &amp; Programming Model</h2>
-
-<p>Play is backed by <a href="https://netty.io/">Netty</a>, the asynchronous event-driven NIO framework. I don't want/need all the Java Servlet legacy. NIO gives me much better throughput and lower latency. Play also gives me a stateless programming model that allows me to scale out if necessary. In terms of developer productivity, Play's roots came from a group of developers that wanted <a href="http://rubyonrails.org/">Rails</a>-like development productivity without the Ruby <del>baggage</del> shortcomings. They wanted a Ruby-esque cruft-free language, but they weren't willing to give up type safety and a decent runtime to get it. Who wouldn't want that?</p>
-
-<h2>Akka</h2>
-
-<p>Dolphin integrates with many esi.manage nodes. I need a <a href="http://doc.akka.io/docs/akka/snapshot/scala/dataflow.html">scatter/gather type data-flow capability</a> and Akka gives it to me, very naturally and efficiently with the actor programming model. That combined with NIO gives me a very scalable solution, with even one server node.</p>
-
-<h2>Typesafe</h2>
-
-<p>Typesafe spent much of 2012 hiring the some of the <a href="http://typesafe.com/company/team">best Scala developers</a> out there. Some would argue they're hoarding! ;-) Martin Odersky, their Chairman and Chief Architect, is the main author of Scala and has endorsed both Akka and Play as part of their technology stack. Typesafe is <a href="http://typesafe.com/company/news/24499">well funded</a> and I don't see them going anywhere soon.</p>
 ]]></content>
   </entry>
   
