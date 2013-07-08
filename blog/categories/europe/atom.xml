@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: scala | Andy Czerwonka]]></title>
-  <link href="http://andyczerwonka.com/blog/categories/scala/atom.xml" rel="self"/>
+  <title><![CDATA[Category: europe | Andy Czerwonka]]></title>
+  <link href="http://andyczerwonka.com/blog/categories/europe/atom.xml" rel="self"/>
   <link href="http://andyczerwonka.com/"/>
   <updated>2013-07-08T05:12:40-06:00</updated>
   <id>http://andyczerwonka.com/</id>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Why Play?]]></title>
-    <link href="http://andyczerwonka.com/blog/2013/01/02/why-play/"/>
-    <updated>2013-01-02T09:20:00-07:00</updated>
-    <id>http://andyczerwonka.com/blog/2013/01/02/why-play</id>
-    <content type="html"><![CDATA[<p>I'll do a small series of posts describing, in a little detail, the <a href="https://github.com/andyczerwonka/dolphin">Dolphin</a> architecture and the reasons for making the choices I've made. Today I'll focus on the <a href="http://www.playframework.org/">Play Framework</a>. There were many drivers, but I'll focus on what was most important to me.</p>
+    <title type="html"><![CDATA[Sometimes three are better than one]]></title>
+    <link href="http://andyczerwonka.com/blog/2013/07/07/sometimes-three-are-better-than-one/"/>
+    <updated>2013-07-07T20:00:00-06:00</updated>
+    <id>http://andyczerwonka.com/blog/2013/07/07/sometimes-three-are-better-than-one</id>
+    <content type="html"><![CDATA[<p>I'm in Katowice, Poland on a business trip for a few days, so this weekend we decided to head out to <a href="http://en.wikipedia.org/wiki/Zakopane">Zakopane</a>, the popular mountain town in southern Poland.</p>
 
 <ol>
 <li><a href="http://www.scala-lang.org/">Scala</a></li>
@@ -43,17 +43,6 @@
 <h2>Typesafe</h2>
 
 <p>Typesafe spent much of 2012 hiring the some of the <a href="http://typesafe.com/company/team">best Scala developers</a> out there. Some would argue they're hoarding! ;-) Martin Odersky, their Chairman and Chief Architect, is the main author of Scala and has endorsed both Akka and Play as part of their technology stack. Typesafe is <a href="http://typesafe.com/company/news/24499">well funded</a> and I don't see them going anywhere soon.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Calgary Scala]]></title>
-    <link href="http://andyczerwonka.com/blog/2012/12/16/calgary-scala/"/>
-    <updated>2012-12-16T15:28:00-07:00</updated>
-    <id>http://andyczerwonka.com/blog/2012/12/16/calgary-scala</id>
-    <content type="html"><![CDATA[<p>I've moved <a href="https://plus.google.com/u/0/communities/115918964995782373052">Calgary Scala</a> over to <a href="https://plus.google.com/u/0/communities">Google+ Communities</a>. With the combination of Communities, Events and Hangouts, I think Google's offering has surpassed <a href="http://www.meetup.com/">Meetup.com</a> as the best service to manage Calgary Scala.</p>
-
-<p>I'll see you in 2013 at our first <a href="https://plus.google.com/u/0/events/cupsgrdu33lr5krnoqk4513df9o">Calgary Scala Community Event!</a></p>
 ]]></content>
   </entry>
   
