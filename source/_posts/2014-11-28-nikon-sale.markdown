@@ -6,11 +6,11 @@ comments: true
 categories: [photography]
 ---
 
-I've finally decided to put up all of my photography equipment for sale. It's a hard decision as it's taken me a long time to acquire all of this, but truth be told, I don't use it as much anymore. I used to spend a my time shooting sports mostly, and it's served me very well. The kids are growing up now and I don't find myself reaching for it so I might as well let it go.
+I've finally decided to put up all of my photography equipment for sale. It's a hard decision given it's taken me a long time to acquire all this awesome hardware, but truth be told, I don't use it as much anymore. I used to spend a lot of my time shooting sports and it's served me very well. The kids are growing up now so I don't find myself reaching for it as often. I might as well let it go.
 
 {% img left https://lh5.googleusercontent.com/bZOMjtfnMwZFKaABrfxdNO9wmgP4zo-fDybNEcBgiv0=w1248-h829-no %}
 
-Absolutely everything is mint. Anyway, so here it is, piece by piece.
+Absolutely everything is mint. Here it is, piece by piece.
 
 ### 1. [Nikon D200 Body: $400](http://www.nikonusa.com/en/Nikon-Products/Product-Archive/dslr-cameras/D200.html)
 {% img left https://lh4.googleusercontent.com/-XqEK26MdhUg/VHjJrxf52yI/AAAAAAAAIUE/ZBUgHjk6vo4/w1248-h829-no/DSCF0087.JPG %}
@@ -19,10 +19,10 @@ It's a great sports camera. It's comes with two batteries and the [MB-D200 Multi
 
 {% img left https://lh6.googleusercontent.com/VDAoy8EpVSbvrQgt26hv0Vn0ih0WAKhZmPNxvTWbEyw=w1248-h829-no %}
 
-### 2. [Nikon 70-200mm f/2.8G ED-IF AF-S VR Zoom Nikkor: $1650](http://www.amazon.com/Nikon-70-200mm-Nikkor-Digital-Cameras/dp/B00009MDBQ)
+### 2. [Nikon 70-200mm f/2.8G ED-IF AF-S VR Zoom Nikkor: $1750](http://www.amazon.com/Nikon-70-200mm-Nikkor-Digital-Cameras/dp/B00009MDBQ)
 {% img left https://lh6.googleusercontent.com/-sOovi6xLBT4/VHjJqnPe-bI/AAAAAAAAIVs/jwEevKvgFaM/w1248-h829-no/DSCF0082.JPG %}
 
-I don't really need to say much about this lens. If you're looking at this post you're most likely familiar with this lens. It's a **must have** lens for almost any professional or prosumer photographer. It comes with the HM-31 lens hood and a Nikon L37c UV HAze filter
+I don't really need to say much about this lens. If you're looking at this post you're most likely familiar with this lens. It's a **must have** lens for almost any professional or prosumer photographer. It comes with the HM-31 lens hood and a Nikon L37c UV Haze filter
 
 ### 3. [Nikon 17-55mm f/2.8G ED-IF AF-S DX: $850](http://www.bhphotovideo.com/c/product/300490-USA/Nikon_2147_17_55mm_f_2_8G_ED_IF_AF_S.html)
 {% img left https://lh3.googleusercontent.com/-I1ExpP_sStU/VHjJnsxre7I/AAAAAAAAIS8/j_WpCIhKkpI/w1248-h829-no/DSCF0074.JPG %}
@@ -74,3 +74,6 @@ A smaller bag, but I usually carry this when I don't need to haul everything.
 * [Nikon SC-29: $40](http://www.amazon.ca/NIKON-SC-29-Coiled-Remote-Cord/dp/B00019JPRO)
 * [Manfrotto Monopod: $220](http://mediacdn.shopatron.com/media/mfg/2747/product_image/8419a0b0079c5f4b98b34c104d0522c7.jpg) - this is a great addition for when you're using the 70-200 for sports or wildlife.
 * Booth Reflector, Lens Brush, Lens Case, etc - Free
+
+## Package Deal
+If you're interested in the whole lot, stay tuned, I will put together a package price.
