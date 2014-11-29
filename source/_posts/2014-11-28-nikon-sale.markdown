@@ -54,7 +54,7 @@ Allows you to increase the focal-length by 1.7x to any lenses. Great when you ne
 
 A great flash that can be remote-controlled from the D200 body. You can place it anywhere.
 
-### 8. [Rodenstock 77mm Circular Polarizer HR: $150](http://www.bhphotovideo.com/c/product/876234-REG/Rodenstock_407740_77mm_Circular_Polarizer_HR.html)
+### 8. [Rodenstock 77mm Circular Polarizer HR: $100](http://www.bhphotovideo.com/c/product/876234-REG/Rodenstock_407740_77mm_Circular_Polarizer_HR.html)
 {% img left https://lh5.googleusercontent.com/ifwjeQe06cjizLQ2r_Noxf79ulHcxfTmIqssH5fgCIU=w1248-h828-no %}
 
 I have a step-up ring that will allow you to use this filter on the 50mm 1.4.
