@@ -32,7 +32,7 @@ At $1400 retail, you can't beat this deal. [Ken Rockwell has some very good thin
 ### 4. [Nikon AF-S VR Micro-Nikkor 105mm f/2.8G IF-ED: $700](http://www.bhphotovideo.com/c/product/424744-USA/Nikon_2160_105mm_f_2_8G_ED_IF_AF_S.html)
 {% img left https://lh5.googleusercontent.com/M4Fz0cgZNHOQI1nCwNuUaU9_jkfrccv65j-IxnaHApM=w1248-h829-no %}
 
-This is probably my favorite lens. It comes with a Rodenstock E62 UV filter.
+This is probably my favorite lens. An awesome macro and portrait lens.
 
 ### 5. [Nikon 10.5mm f/2.8G ED DX Fisheye Nikkor: $500](http://www.bhphotovideo.com/c/product/300487-USA/Nikon_2148_10_5mm_f_2_8G_ED_DX.html)
 {% img left https://lh4.googleusercontent.com/OKDYcfJ3NQCUIEtJP2i5LFBVFJQXJ30aYNDYxg9OLw0=w1248-h829-no %}
@@ -78,5 +78,8 @@ A smaller bag, but I usually carry this when I don't need to haul everything.
 ## Package Deal
 I've tried to price everything quite aggressively. I tried to find all items on either Adorama or Amazon to get comparable prices for the items if you were to buy them new. When I add everything up you will find that my prices are 1/3 less. If you're interested in the whole lot, I'll add another 10%.
 
-{% img left https://lh3.googleusercontent.com/-4u74XiO2Eco/VHoAEtjHQYI/AAAAAAAAIYA/rET2q4X7AZc/w702-h438-no/Selection_089.png %}
+### Update
+Some of the items have been sold. Please see the following list for what's still available.
+
+{% img left https://lh4.googleusercontent.com/-tacOSzlhA-4/VH3sr6NoxjI/AAAAAAAAIbA/E_cS5XMifh8/w702-h438-no/Selection_089.png %}
 
